@@ -1,0 +1,138 @@
+.title {
+  text-align: center;
+  color: black;
+}
+.title h3 {
+  text-align: center;
+  color: grey;
+}
+.events h3 {
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #f8f9fa;
+}
+.nav_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  background-color: #333;
+  justify-content: space-around;
+  align-items: center;
+}
+/* li {
+  float: left;
+} */
+li a {
+  display: block;
+  color: white;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: gray;
+}
+.active {
+  background-color: blue;
+}
+#members {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.member1,
+.member2,
+.member3 {
+  flex: 1; /* Each member div takes up equal space */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center content within each member div */
+}
+
+.member3 {
+  display: flex; /* Nested flex container for image centering */
+  justify-content: center; /* Center image horizontally */
+  align-items: center; /* Center image vertically */
+}
+
+.member3 img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* .member1 {
+  float: left;
+  width: 50%;
+}
+.member2 {
+  float: right;
+  width: 50%;
+} */
+/* .left-con {
+  float: left;
+  width: 50%;
+}
+.right-con {
+  float: right;
+  width: 50%;
+} */
+
+#Harrasment_container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+#Harrasment {
+  margin-right: 40%;
+}
+
+#See {
+  /* margin-left: auto; */
+}
+
+footer {
+  background-color: hsl(0, 0%, 67%);
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  clear: both;
+}
+.footer-container {
+  width: 100%;
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Distribute items evenly with space around them */
+  /* flex-direction: row; */
+  align-items: center; /* Vertically center items */
+}
+
+.items {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around;
+  align-items: center; */
+  /* flex: 1; /* Each div takes equal space 
+  text-align: center; /*Center-align content 
+  margin: 0 20px; */
+}
+.items > div {
+  flex: 1;
+  text-align: center;
+}
+.footer-container a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-container a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.footer-container .items p {
+  margin-top: 10px;
+}
